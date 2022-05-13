@@ -1,3 +1,14 @@
+:root{
+    --darkMain: #1B1A17;
+    --mainColor: #F0A500;
+    --orange: #E45826;
+    --lightGray: #E6D5B8;
+}
+
+body {
+    background-image: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(27,26,23,1) 50%, rgba(230,213,184,1) 100%);
+}
+
 .parallax{
     display: flex;
     flex-direction: column;
@@ -41,6 +52,10 @@
     border: 1px solid black;
 }
 
+.about-paragraph {
+    color: var(--mainColor);
+}
+
 .footer-section {
     margin-top: 15px;
     text-align: center;
@@ -69,6 +84,9 @@
         margin-right: auto;
     }
     .about-paragraph {
+        border-radius: 16px;
+        padding: 2px;
+        background-color: var(--darkMain);
         margin-top: 25px;
         width: 90%;
         margin-left: auto;
@@ -78,6 +96,6 @@
     .nav {
         position: relative;
         left: 2px;
-        top: -660px;
+        top: -670px;
     }
 }
