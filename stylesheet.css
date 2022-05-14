@@ -63,6 +63,12 @@ body {
     color: white;
 }
 
+.calendar {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
 /* mobile responsiveness */
 
 /* Extra small devices (phones, 600px and down) */
@@ -97,5 +103,10 @@ body {
         position: relative;
         left: 2px;
         top: -670px;
+    }
+    .calendar {
+        margin-top: 0;
+        width: 100%;
+        height: auto;
     }
 }
