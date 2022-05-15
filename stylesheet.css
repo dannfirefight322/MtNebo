@@ -69,6 +69,23 @@ body {
     justify-content: center;
 }
 
+.location-image {
+    border: solid;
+    height: 500px;
+    width: 600px;
+    margin-left:25px;
+    margin-right: 25px;
+}
+.mapouter {
+    margin-left:25px;
+    margin-right: 25px;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
 /* mobile responsiveness */
 
 /* Extra small devices (phones, 600px and down) */
@@ -108,5 +125,17 @@ body {
         margin-top: 0;
         width: 100%;
         height: auto;
+    }
+    .map {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .location-image {
+        width: 90%;
+        height: auto;
+    }
+    #gmap_canvas {
+        width: 90%;
     }
 }
