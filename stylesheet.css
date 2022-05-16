@@ -12,6 +12,8 @@ body {
 
 .title {
     font-family: var(--mainFont);
+    font-weight: bold;
+    font-size: 45px;
 }
 
 .parallax{
@@ -41,11 +43,14 @@ body {
 
 .nav-link {
     font-family: var(--mainFont);
+    color: var(--darkMain);
     font-size: 35px;
     margin-left: 2px;
     margin-right: 2px;
 }
-
+.nav-link:hover {
+    color: var(--lightGray);
+}
 #offcanvasRightLabel, .sociallink{
     font-family: var(--mainFont);
 }
@@ -111,6 +116,10 @@ form {
     }
     .title {
         text-align: center;
+        font-size: 30px;
+    }
+    .nav-link {
+        font-size: 20px;
     }
     .home-page {
         margin-top: 25px;
